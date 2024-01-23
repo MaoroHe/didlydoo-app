@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.addBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(243, 238, 234);
+  background-color: rgb(119, 107, 93);
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: rgb(243, 238, 234);
+  color: rgb(119, 107, 93);
+  border: 2px solid rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+}
+
+.addBtn:active {
+  background-color: rgb(243, 238, 234);
+  box-shadow: none;
+  transform: translateY(4px);
+}/*# sourceMappingURL=style.css.map */

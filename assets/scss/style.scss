@@ -1,0 +1,101 @@
+@import "./important/variable";
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+//ADD BOUTON ------------------------
+.addBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $Lattecream;
+    background-color: $brown;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .addBtn:hover {
+    background-color: $Lattecream;
+    color: $brown;
+    border: 2px solid $brown;
+    box-shadow: 5px 5px 0px $brown;
+  }
+  
+  .addBtn:active {
+    background-color: $Lattecream;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .box1 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $Lattecream;
+    
+// }
+
+// .box2 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $beige;
+    
+// }
+// .box3 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $coffee;
+    
+// }
+// .box4 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $brown;
+    
+// }
+// .box5 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $darkLattecream;
+    
+// }
+// .box6 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $darkbeige;
+    
+// }
+// .box7 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $darkcoffee;
+    
+// }
+// .box8 {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $darkbrown;
+    
+// }
