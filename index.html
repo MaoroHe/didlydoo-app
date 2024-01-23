@@ -7,6 +7,22 @@
     <title>DidlyDoo</title>
   </head>
   <body>
+    <button class="addBtn">Add Event</button>
+      <div class="boite" id="boite">
+        <div class="boite__contenu" id="content">
+          <span class="boite__contenu__close" id="close">&times;</span>
+          <form class=" boite__contenu__form" id="formulaire">
+            <input type="text" id="eventName" placeholder="Name your event..">
+            <input type="text" id="eventDesc" placeholder="Describe your event..">
+            <input type="text" id="eventAuthor" placeholder="Who are you ?">
+            <input type="date" name="disponibility" id="eventDate">
+            <ul id="ulDate"></ul>
+            <button id="addDate">Add</button>
+            <button type="submit" id="eventSubmit">Send</button>
+          </form>
+        </div>
+      </div>
+
     <header>
       <img src="futur-logo" alt="logo">
       <h1>DidlyDoo</h1>
@@ -15,9 +31,6 @@
       
     </header>
     <main>
-      <button class="addBtn">Add Event</button>
-
-    
     </main>
     <footer></footer>
 
