@@ -10,7 +10,7 @@
 }
 .boite__contenu {
   margin: 10px;
-  width: 40%;
+  width: 300px;
   color: rgb(119, 107, 93);
   background-color: rgb(119, 107, 93);
   border: 2px solid rgb(119, 107, 93);
@@ -19,7 +19,8 @@
 }
 .boite__contenu__form__modalInput {
   margin: 10px;
-  width: 150px;
+  min-width: 150px;
+  width: 100px;
   height: 20px;
   border: 2px solid rgb(119, 107, 93);
   background-color: white;
@@ -79,10 +80,15 @@ header {
 }
 
 .logo {
-  color: rgb(95, 30, 8);
-  width: 5%;
-  height: 5%;
+  background-color: rgb(119, 107, 93);
+  border: 2px solid rgb(41, 37, 32);
+  box-shadow: 5px 5px 0px rgb(41, 37, 32);
+  transition: all 0.3s ease;
+  min-width: 50px;
+  width: 10%;
+  height: 10%;
   margin: 20px;
+  padding: 10px;
 }
 
 h1 {

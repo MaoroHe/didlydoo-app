@@ -25,10 +25,16 @@ header {
 
 // LOGO--------------------------
 .logo {
-    color: $vintagedarkRed;
-    width: 5%;
-    height: 5%;
+    background-color: $brown;
+    border: 2px solid $darkbrown;
+    // border-radius: 10px;
+    box-shadow: 5px 5px 0px $darkbrown;
+    transition: all 0.3s ease;
+    min-width: 50px;
+    width: 10%;
+    height: 10%;
     margin: 20px;
+    padding: 10px;
 }
 
 // TITRE <H1>--------------------------
@@ -45,7 +51,6 @@ h1 {
 button {
     padding: 10px 20px;
     font-size: 24px;
-
     margin: 20px;
     color: $Lattecream;
     background-color: $brown;
@@ -68,6 +73,7 @@ button:active {
     box-shadow: none;
     transform: translateY(4px);
 }
+
 
 /* MAIN */
 .events {
