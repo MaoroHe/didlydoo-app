@@ -1,5 +1,6 @@
 .boite {
-    display: block;
+
+    display: none;
     flex-direction: column;
     position: fixed;
     left: auto;
@@ -10,7 +11,7 @@
 
     &__contenu {
         margin: 10px;
-        width: 60%;
+        width: 40%;
         color: $brown;
         background-color: $brown;
         border: 2px solid $brown;

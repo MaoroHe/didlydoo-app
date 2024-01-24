@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700");
 .boite {
-  display: block;
+  display: none;
   flex-direction: column;
   position: fixed;
   left: auto;
@@ -10,7 +10,7 @@
 }
 .boite__contenu {
   margin: 10px;
-  width: 60%;
+  width: 40%;
   color: rgb(119, 107, 93);
   background-color: rgb(119, 107, 93);
   border: 2px solid rgb(119, 107, 93);
@@ -119,6 +119,10 @@ button:active {
 }
 
 /* MAIN */
+.events {
+  display: flex;
+  flex-wrap: wrap;
+}
 .events__description {
   color: rgb(119, 107, 93);
 }
@@ -131,7 +135,10 @@ h2 {
 }
 
 .eventBox {
-  border: 2px solid rgb(119, 107, 93);
+  width: 500px;
+  border: 1px solid rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+  transition: all 0.3s ease;
   margin: 10px;
   padding: 10px;
 }

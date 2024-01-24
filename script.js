@@ -1,6 +1,6 @@
 /* Import */
 import '/assets/scss/style.css';
-import { modalClick } from './assets/js/input/input.js';
+import { modalClick } from './assets/js/input/input';
 import { fetchData } from './assets/js/fetch/fetch';
 
 /* Variables */
