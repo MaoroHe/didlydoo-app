@@ -27,7 +27,7 @@ export let postToApi = () => {
         description: eventDescValue,
         author: eventAuthorValue,
         dates: theDate,
-}
+    }
 
     // vider nos input
 
