@@ -17,6 +17,7 @@ header {
 }
 
 .logo {
+  color: rgb(95, 30, 8);
   width: 5%;
   height: 5%;
   margin: 20px;
@@ -67,8 +68,13 @@ h2 {
   color: rgb(95, 30, 8);
 }
 
+.eventBox {
+  border: 2px solid rgb(119, 107, 93);
+  margin: 10px;
+  padding: 10px;
+}
+
 table {
-  width: 100%;
   margin: 10px;
   padding: 10px;
   border-collapse: collapse;
