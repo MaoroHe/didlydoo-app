@@ -1,7 +1,7 @@
 /* Import */
 import '/assets/scss/style.css';
 import { modalClick } from './assets/js/input/input.js';
-import { fetchData } from './assets/js/fetch/fetch';
+import { fetchData, buttonSub } from './assets/js/fetch/fetch';
 
 /* Variables */
 const btn = document.querySelector(".header__btn");
@@ -12,6 +12,7 @@ let nameArray = [];
 fetchData();
 console.log(nameArray);
 console.log(updatedData);
+buttonSub();
 
 /* Evènements */
 // btn.addEventListener("click", createEvent);
