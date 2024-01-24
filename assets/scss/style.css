@@ -1,33 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700");
+* {
+  font-family: "Raleway";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(235, 227, 213);
+}
+
+/* HEADER */
 header {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.addBtn {
-  display: inline-block;
+.logo {
+  color: rgb(95, 30, 8);
+  width: 5%;
+  height: 5%;
+  margin: 20px;
+}
+
+h1 {
+  color: rgb(235, 227, 213);
+  background-color: rgb(119, 107, 93);
+  padding: 10px 20px;
+  font-weight: bold;
+  border: 5px solid rgb(41, 37, 32);
+}
+
+button {
   padding: 10px 20px;
   font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
+  margin: 20px;
   color: rgb(243, 238, 234);
   background-color: rgb(119, 107, 93);
-  border: 2px solid #000;
-  border-radius: 10px;
-  box-shadow: 5px 5px 0px #000;
+  border: 2px solid rgb(41, 37, 32);
+  box-shadow: 5px 5px 0px rgb(41, 37, 32);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.addBtn:hover {
+button:hover {
   background-color: rgb(243, 238, 234);
   color: rgb(119, 107, 93);
   border: 2px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
 }
 
-.addBtn:active {
+button:active {
   background-color: rgb(243, 238, 234);
   box-shadow: none;
   transform: translateY(4px);
+}
+
+/* MAIN */
+.events__description {
+  color: rgb(119, 107, 93);
+}
+.events__author {
+  color: rgb(41, 37, 32);
+}
+
+h2 {
+  color: rgb(95, 30, 8);
+}
+
+.eventBox {
+  border: 2px solid rgb(119, 107, 93);
+  margin: 10px;
+  padding: 10px;
+}
+
+table {
+  margin: 10px;
+  padding: 10px;
+  border-collapse: collapse;
+  border: 1px solid rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+  transition: all 0.3s ease;
+}
+
+td,
+th {
+  color: rgb(119, 107, 93);
+  border: 1px solid rgb(119, 107, 93);
+  padding: 5px;
+}
+
+.nameInput {
+  margin: 10px;
+  width: 150px;
+  height: 20px;
+  border: 2px solid rgb(119, 107, 93);
+  background-color: white;
+  box-shadow: 4px 4px rgb(119, 107, 93);
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(72, 68, 62);
+  padding: 5px 10px;
+  outline: none;
+}
+.nameInput .input::-moz-placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.nameInput .input::placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.nameInput .input:focus {
+  border: 2px solid rgb(41, 37, 32);
+}
+
+.checkbox {
+  margin: 5px;
+  background-color: transparent;
+  border: transparent;
+  border: 1px solid rgb(119, 107, 93);
+  border: 1px solid rgb(119, 107, 93);
+  box-shadow: 2px 2px 0px rgb(119, 107, 93);
 }/*# sourceMappingURL=style.css.map */

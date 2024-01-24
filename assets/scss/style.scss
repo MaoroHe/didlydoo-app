@@ -1,101 +1,147 @@
 @import "./important/variable";
+@import url('https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700');
 
 
+* {
+    font-family: "Raleway";
+    font-weight: 400;
+    // box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: $beige;
+
+}
+
+/* HEADER */
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-//ADD BOUTON ------------------------
-.addBtn {
-    display: inline-block;
+// LOGO--------------------------
+.logo {
+    color: $vintagedarkRed;
+    width: 5%;
+    height: 5%;
+    margin: 20px;
+}
+
+// TITRE <H1>--------------------------
+h1 {
+    color: $beige;
+    background-color: $brown;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 5px solid $darkbrown;
+    // border-radius: 10px;
+}
+
+//ADD EVENT BOUTON ------------------------
+button {
     padding: 10px 20px;
     font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
+
+    margin: 20px;
     color: $Lattecream;
     background-color: $brown;
-    border: 2px solid #000;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0px #000;
+    border: 2px solid $darkbrown;
+    // border-radius: 10px;
+    box-shadow: 5px 5px 0px $darkbrown;
     transition: all 0.3s ease;
     cursor: pointer;
-  }
-  
-  .addBtn:hover {
+}
+
+button:hover {
     background-color: $Lattecream;
     color: $brown;
     border: 2px solid $brown;
     box-shadow: 5px 5px 0px $brown;
-  }
-  
-  .addBtn:active {
+}
+
+button:active {
     background-color: $Lattecream;
     box-shadow: none;
     transform: translateY(4px);
-  }
-  
+}
+
+/* MAIN */
+.events {
+    // border: 2px solid $brown;
+
+    &__description {
+        color: $brown;
+    }
+
+    &__author {
+        color: $darkbrown;
+    }
+}
+
+h2 {
+    color: $vintagedarkRed;
+
+}
+
+.eventBox {
+    border: 2px solid $brown;
+    margin: 10px;
+    padding: 10px;
+}
+
+//   TABLEAU--------------------------------
+table {
+    // width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid $brown;
+    box-shadow: 5px 5px 0px $brown;
+    transition: all 0.3s ease;
+}
+
+td,
+th {
+    color: $brown;
+    border: 1px solid $brown;
+    padding: 5px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// .box1 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $Lattecream;
+//   NAMEINPUT--------------------------------
+.nameInput {
     
-// }
+   margin: 10px;
+    width: 150px;
+    height: 20px;
+    border: 2px solid $brown;
+    background-color: white;
+    box-shadow: 4px 4px $brown;
+    font-size: 15px;
+    font-weight: 600;
+    color: $darkcoffee;
+    padding: 5px 10px;
+    outline: none;
 
-// .box2 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $beige;
-    
-// }
-// .box3 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $coffee;
-    
-// }
-// .box4 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $brown;
-    
-// }
-// .box5 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $darkLattecream;
-    
-// }
-// .box6 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $darkbeige;
-    
-// }
-// .box7 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $darkcoffee;
-    
-// }
-// .box8 {
-//     width: 100px;
-//     height: 100px;
-//     background-color: $darkbrown;
-    
-// }
+    .input::placeholder {
+        color: $darkcoffee;
+        opacity: 0.8;
+    }
+
+    .input:focus {
+        border: 2px solid $darkbrown;
+    }
+}
+
+
+.checkbox {
+    margin: 5px;
+    background-color: transparent;
+    border: transparent;
+    border: 1px solid $brown;
+    border: 1px solid $brown;
+    box-shadow: 2px 2px 0px $brown;
+}
