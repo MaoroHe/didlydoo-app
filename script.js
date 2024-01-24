@@ -1,5 +1,6 @@
 /* Import */
 import '/assets/scss/style.css';
+import { modalClick } from './assets/js/input/input.js';
 import { fetchData } from './assets/js/fetch/fetch';
 
 /* Variables */
@@ -14,3 +15,5 @@ console.log(updatedData);
 
 /* Evènements */
 // btn.addEventListener("click", createEvent);
+
+modalClick();

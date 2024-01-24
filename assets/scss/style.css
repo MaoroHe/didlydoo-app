@@ -1,4 +1,66 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700");
+.boite {
+  display: block;
+  flex-direction: column;
+  position: fixed;
+  left: auto;
+  right: auto;
+  width: 100%;
+  height: 100%;
+}
+.boite__contenu {
+  margin: 10px;
+  width: 60%;
+  color: rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  border: 2px solid rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+  transition: all 0.3s ease;
+}
+.boite__contenu__form__modalInput {
+  margin: 10px;
+  width: 150px;
+  height: 20px;
+  border: 2px solid rgb(119, 107, 93);
+  background-color: white;
+  box-shadow: 4px 4px rgb(119, 107, 93);
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(119, 107, 93);
+  padding: 5px 10px;
+  outline: none;
+}
+.boite__contenu__form__modalInput .input::-moz-placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.boite__contenu__form__modalInput .input::placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.boite__contenu__form__modalInput .input:focus {
+  border: 2px solid rgb(41, 37, 32);
+}
+.boite__contenu__close {
+  color: rgb(41, 37, 32);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: 7px;
+}
+.boite__contenu__close:focus, .boite__contenu__close:hover {
+  color: rgb(41, 37, 32);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
 * {
   font-family: "Raleway";
   font-weight: 400;

@@ -1,0 +1,70 @@
+.boite {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    left: auto;
+    right: auto;
+    // z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    &__contenu {
+        margin: 10px;
+        width: 60%;
+        color: $brown;
+        background-color: $brown;
+        border: 2px solid $brown;
+        // border-radius: 10px;
+        box-shadow: 5px 5px 0px $brown;
+        transition: all 0.3s ease;
+        &__form {
+            &__modalInput {
+    
+                margin: 10px;
+                 width: 150px;
+                 height: 20px;
+                 border: 2px solid $brown;
+                 background-color: white;
+                 box-shadow: 4px 4px $brown;
+                 font-size: 15px;
+                 font-weight: 600;
+                 color: $brown;
+                 padding: 5px 10px;
+                 outline: none;
+             
+                 .input::placeholder {
+                     color: $darkcoffee;
+                     opacity: 0.8;
+                 }
+             
+                 .input:focus {
+                     border: 2px solid $darkbrown;
+                 }
+             }
+             
+        }
+
+        &__close {
+            color: $darkbrown;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            height: fit-content;
+            margin-right: 7px;
+
+            &:focus,
+            &:hover {
+                color: $darkbrown;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+      
+    }
+}
+
+
+li {
+    list-style: none;
+    margin: 10px;
+}
