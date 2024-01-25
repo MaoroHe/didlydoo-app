@@ -141,7 +141,6 @@ h2 {
 }
 
 .eventBox {
-  width: 500px;
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
   transition: all 0.3s ease;
