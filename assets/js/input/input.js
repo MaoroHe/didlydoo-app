@@ -8,6 +8,7 @@ export let modalClick = () => {
     const close = document.getElementById('close');
     const boite = document.getElementById('boite');
     const dateVal = document.getElementById('eventDate')
+    const maine = document.getElementById('events')
 
     addBtn.addEventListener('click', (event) => {
         boite.style.display = "block";
@@ -26,6 +27,7 @@ export let modalClick = () => {
     btnSub.addEventListener('click', (event) => {
         event.preventDefault();
         postToApi();
+        
     })
 
     addDate.addEventListener('click', (event)=> {
