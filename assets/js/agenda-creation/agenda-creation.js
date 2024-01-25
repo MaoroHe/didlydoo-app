@@ -15,7 +15,10 @@ export function displayEvents(data) {
     data.forEach((event) => {
         const eventDiv = document.createElement("div");
         eventDiv.classList.add('eventBox');
-        eventDiv.innerHTML = `<h2 class="events__title">${event.name}</h2><p class="events__description">${event.description}</p><p class="events__author">${event.author}</p><button class="events__edit-button edit-button" data-id="${event.id}">Edit Event</button><button class="events__delete-button delete-button" data-id="${event.id}">Delete Event</button>`;
+        eventDiv.innerHTML = `<h2 class="events__title">${event.name}</h2>
+        <p class="events__description">${event.description}</p><p class="events__author">${event.author}</p>
+        <button class="events__edit-button edit-button" data-id="${event.id}">Edit Date</button>
+        <button class="events__delete-button delete-button" data-id="${event.id}">Delete Event</button>`;
         const table = document.createElement("table");
         const thead = document.createElement("thead");
         const tbody = document.createElement("tbody");
