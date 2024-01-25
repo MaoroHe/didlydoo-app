@@ -1,6 +1,7 @@
 @import "./important/variable";
 @import url('https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700');
 @import "./modal/modal";
+@import "./darkmode/darkmode";
 
 
 * {
@@ -71,6 +72,8 @@ button:active {
 
 /* MAIN */
 .events {
+    display: flex;
+    flex-wrap: wrap;
     // border: 2px solid $brown;
 
     &__description {
@@ -88,7 +91,10 @@ h2 {
 }
 
 .eventBox {
-    border: 2px solid $brown;
+    width: 500px;
+    border: 1px solid $brown;
+    box-shadow: 5px 5px 0px $brown;
+    transition: all 0.3s ease;
     margin: 10px;
     padding: 10px;
 }

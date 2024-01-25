@@ -1,4 +1,5 @@
 import { displayEvents } from "../agenda-creation/agenda-creation";
+import { postToApi } from "../post/post.js";
 
 // Récupération des informations depuis l'API
 export function fetchData() {
@@ -8,4 +9,19 @@ export function fetchData() {
         console.log(json);
         displayEvents(json);
     });
+}
+
+
+export let submitReset = () => {
+    const btnSub = document.getElementById('eventSubmit');
+    const maine = document.getElementById('events')
+
+    btnSub.addEventListener('click', (event) => {
+        event.preventDefault();
+        postToApi();
+        boite.style.display = "none";
+        maine.innerHTML = "";
+
+        setTimeout(fetchData, 100);
+    })
 }
