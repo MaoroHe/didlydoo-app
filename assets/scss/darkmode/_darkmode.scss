@@ -1,0 +1,146 @@
+
+.darkmode {
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    // LOGO--------------------------
+    .logo {
+        background-color: $brown;
+        border: 2px solid $darkbrown;
+        // border-radius: 10px;
+        box-shadow: 5px 5px 0px $darkbrown;
+        transition: all 0.3s ease;
+        min-width: 50px;
+        width: 10%;
+        height: 10%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    // TITRE <H1>--------------------------
+    h1 {
+        color: $darkbeige;
+        background-color: $brown;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: 5px solid $darkbrown;
+        // border-radius: 10px;
+    }
+
+    //ADD EVENT BOUTON ------------------------
+    button {
+        padding: 10px 20px;
+        font-size: 24px;
+
+        margin: 20px;
+        color: $Lattecream;
+        background-color: $brown;
+        border: 2px solid $darkbrown;
+        // border-radius: 10px;
+        box-shadow: 5px 5px 0px $darkbrown;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: $Lattecream;
+        color: $brown;
+        border: 2px solid $brown;
+        box-shadow: 5px 5px 0px $brown;
+    }
+
+    button:active {
+        background-color: $Lattecream;
+        box-shadow: none;
+        transform: translateY(4px);
+    }
+
+    /* MAIN */
+    .events {
+        display: flex;
+        flex-wrap: wrap;
+        // border: 2px solid $brown;
+
+        &__description {
+            color: $brown;
+        }
+
+        &__author {
+            color: $darkbrown;
+        }
+    }
+
+    h2 {
+        color: $vintagedarkRed;
+
+    }
+
+    .eventBox {
+        width: 500px;
+        border: 1px solid $brown;
+        box-shadow: 5px 5px 0px $brown;
+        transition: all 0.3s ease;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    //   TABLEAU--------------------------------
+    table {
+        // width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border-collapse: collapse;
+        border: 1px solid $brown;
+        box-shadow: 5px 5px 0px $brown;
+        transition: all 0.3s ease;
+    }
+
+    td,
+    th {
+        color: $brown;
+        border: 1px solid $brown;
+        padding: 5px;
+    }
+
+
+    //   NAMEINPUT--------------------------------
+    .nameInput {
+        
+    margin: 10px;
+        width: 150px;
+        height: 20px;
+        border: 2px solid $brown;
+        background-color: white;
+        box-shadow: 4px 4px $brown;
+        font-size: 15px;
+        font-weight: 600;
+        color: $darkcoffee;
+        padding: 5px 10px;
+        outline: none;
+
+        .input::placeholder {
+            color: $darkcoffee;
+            opacity: 0.8;
+        }
+
+        .input:focus {
+            border: 2px solid $darkbrown;
+        }
+    }
+
+
+    .checkbox {
+        margin: 5px;
+        background-color: transparent;
+        border: transparent;
+        border: 1px solid $brown;
+        border: 1px solid $brown;
+        box-shadow: 2px 2px 0px $brown;
+    }
+}
