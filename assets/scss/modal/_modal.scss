@@ -15,7 +15,7 @@
         background-color: $brown;
         padding: 12px;
         box-shadow: 5px 5px 0px $brown;
-        border-radius: 10px;
+
 
         &__close {
             color: $coffee;
@@ -26,7 +26,7 @@
             border: 2px solid $brown;
             // border-radius: 10px;
             box-shadow: 5px 5px 0px $brown;
-            transition: all 0.3s ease;
+            // transition: all 0.3s ease;
         &__form {
             &__modalInput {
     
@@ -103,6 +103,7 @@ li {
     --back-clouds-color: #AACADF;
     --transition: .5s cubic-bezier(0, -0.02, 0.4, 1.25);
     --circle-transition: .3s cubic-bezier(0, -0.02, 0.35, 1.17);
+    border-radius: var(--container-radius);
   }
   
   .theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {

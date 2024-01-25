@@ -69,6 +69,7 @@ export function displayEvents(data) {
         form.appendChild(nameInput);
 
         const checkboxDiv = document.createElement("div");
+        checkboxDiv.classList.add('checkboxes');
         event.dates.forEach((apiDate) => {
             const checkbox = document.createElement("input");
             checkbox.type = "checkbox";

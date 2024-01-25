@@ -30,7 +30,7 @@ header {
     border: 2px solid $darkbrown;
     // border-radius: 10px;
     box-shadow: 5px 5px 0px $darkbrown;
-    transition: all 0.3s ease;
+    // transition: all 0.3s ease;
     min-width: 50px;
     width: 10%;
     height: 10%;
@@ -42,9 +42,12 @@ header {
 h1 {
     color: $beige;
     background-color: $brown;
+    border: 2px solid $darkbrown;
+    // border-radius: 10px;
+    box-shadow: 5px 5px 0px $darkbrown;
+    // transition: all 0.3s ease;
     padding: 10px 20px;
     font-weight: bold;
-    border: 5px solid $darkbrown;
     // border-radius: 10px;
 }
 
@@ -60,20 +63,22 @@ button {
     box-shadow: 5px 5px 0px $darkbrown;
     transition: all 0.3s ease;
     cursor: pointer;
+
+    &:hover {
+        background-color: $Lattecream;
+        color: $brown;
+        border: 2px solid $brown;
+        box-shadow: 5px 5px 0px $brown;
+    }
+
+    &:active {
+        background-color: $Lattecream;
+        box-shadow: none;
+        transform: translateY(4px);
+    }
 }
 
-button:hover {
-    background-color: $Lattecream;
-    color: $brown;
-    border: 2px solid $brown;
-    box-shadow: 5px 5px 0px $brown;
-}
 
-button:active {
-    background-color: $Lattecream;
-    box-shadow: none;
-    transform: translateY(4px);
-}
 
 
 /* MAIN */
@@ -100,7 +105,7 @@ h2 {
     // width: 500px;
     border: 1px solid $brown;
     box-shadow: 5px 5px 0px $brown;
-    transition: all 0.3s ease;
+    // transition: all 0.3s ease;
     margin: 10px;
     padding: 10px;
 }
@@ -113,7 +118,7 @@ table {
     border-collapse: collapse;
     border: 1px solid $brown;
     box-shadow: 5px 5px 0px $brown;
-    transition: all 0.3s ease;
+    // transition: all 0.3s ease;
 }
 
 td,
@@ -126,8 +131,8 @@ th {
 
 //   NAMEINPUT--------------------------------
 .nameInput {
-    
-   margin: 10px;
+
+    margin: 10px;
     width: 150px;
     height: 20px;
     border: 2px solid $brown;
@@ -157,4 +162,8 @@ th {
     border: 1px solid $brown;
     border: 1px solid $brown;
     box-shadow: 2px 2px 0px $brown;
+}
+
+label {
+    color: $brown;
 }

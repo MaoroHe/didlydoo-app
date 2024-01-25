@@ -15,7 +15,6 @@
   background-color: rgb(119, 107, 93);
   padding: 12px;
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
-  border-radius: 10px;
 }
 .boite__contenu__close {
   color: rgb(176, 166, 149);
@@ -25,7 +24,6 @@
   background-color: rgb(119, 107, 93);
   border: 2px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
-  transition: all 0.3s ease;
 }
 .boite__contenu__close__form__modalInput {
   margin: 10px;
@@ -94,6 +92,7 @@ li {
   --back-clouds-color: #AACADF;
   --transition: .5s cubic-bezier(0, -0.02, 0.4, 1.25);
   --circle-transition: .3s cubic-bezier(0, -0.02, 0.35, 1.17);
+  border-radius: var(--container-radius);
 }
 
 .theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {
@@ -250,48 +249,49 @@ li {
   transform: translateY(-50%);
 }
 
+html {
+  background-color: rgb(41, 37, 32);
+}
+
 .darkmode {
+  height: 100%;
   /* MAIN */
 }
-.darkmode header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
+.darkmode header,
+.darkmode main {
+  background-color: rgb(41, 37, 32);
 }
 .darkmode .logo {
-  color: rgb(95, 30, 8);
-  width: 5%;
-  height: 5%;
-  margin: 20px;
+  color: rgb(243, 238, 234);
+  background-color: rgb(41, 37, 32);
+  border: 2px solid rgb(243, 238, 234);
+  box-shadow: 5px 5px 0px rgb(243, 238, 234);
 }
 .darkmode h1 {
-  color: rgb(119, 115, 107);
-  background-color: rgb(119, 107, 93);
-  padding: 10px 20px;
-  font-weight: bold;
-  border: 5px solid rgb(41, 37, 32);
+  color: rgb(243, 238, 234);
+  background-color: rgb(41, 37, 32);
+  border: 2px solid rgb(243, 238, 234);
+  box-shadow: 5px 5px 0px rgb(243, 238, 234);
 }
 .darkmode button {
   padding: 10px 20px;
   font-size: 24px;
   margin: 20px;
   color: rgb(243, 238, 234);
-  background-color: rgb(119, 107, 93);
-  border: 2px solid rgb(41, 37, 32);
-  box-shadow: 5px 5px 0px rgb(41, 37, 32);
+  background-color: rgb(41, 37, 32);
+  border: 2px solid rgb(243, 238, 234);
+  box-shadow: 5px 5px 0px rgb(243, 238, 234);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .darkmode button:hover {
-  background-color: rgb(243, 238, 234);
-  color: rgb(119, 107, 93);
-  border: 2px solid rgb(119, 107, 93);
-  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  color: rgb(243, 238, 234);
+  border: 2px solid rgb(243, 238, 234);
+  box-shadow: 5px 5px 0px rgb(243, 238, 234);
 }
 .darkmode button:active {
-  background-color: rgb(243, 238, 234);
+  background-color: rgb(119, 107, 93);
   box-shadow: none;
   transform: translateY(4px);
 }
@@ -299,44 +299,54 @@ li {
   display: flex;
   flex-wrap: wrap;
 }
+.darkmode .events__title {
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
+}
 .darkmode .events__description {
-  color: rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
 }
 .darkmode .events__author {
-  color: rgb(41, 37, 32);
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
 }
 .darkmode h2 {
   color: rgb(95, 30, 8);
 }
 .darkmode .eventBox {
-  width: 500px;
-  border: 1px solid rgb(119, 107, 93);
-  box-shadow: 5px 5px 0px rgb(119, 107, 93);
-  transition: all 0.3s ease;
+  background-color: rgb(119, 107, 93);
+  border: 1px solid rgb(243, 238, 234);
+  box-shadow: 5px 5px 0px rgb(243, 238, 234);
   margin: 10px;
   padding: 10px;
 }
 .darkmode table {
+  background-color: rgb(119, 107, 93);
   margin: 10px;
   padding: 10px;
   border-collapse: collapse;
-  border: 1px solid rgb(119, 107, 93);
-  box-shadow: 5px 5px 0px rgb(119, 107, 93);
-  transition: all 0.3s ease;
+  border: 1px solid rgb(243, 238, 234);
+  box-shadow: 5px 5px 0px rgb(243, 238, 234);
 }
 .darkmode td,
 .darkmode th {
-  color: rgb(119, 107, 93);
-  border: 1px solid rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  color: rgb(243, 238, 234);
+  border: 1px solid rgb(243, 238, 234);
   padding: 5px;
+}
+.darkmode form {
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
 }
 .darkmode .nameInput {
   margin: 10px;
   width: 150px;
   height: 20px;
-  border: 2px solid rgb(119, 107, 93);
-  background-color: white;
-  box-shadow: 4px 4px rgb(119, 107, 93);
+  border: 2px solid rgb(41, 37, 32);
+  background-color: rgb(235, 227, 213);
+  box-shadow: 4px 4px rgb(41, 37, 32);
   font-size: 15px;
   font-weight: 600;
   color: rgb(72, 68, 62);
@@ -354,6 +364,13 @@ li {
 .darkmode .nameInput .input:focus {
   border: 2px solid rgb(41, 37, 32);
 }
+.darkmode .checkboxes {
+  background-color: rgb(119, 107, 93);
+}
+.darkmode label {
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
+}
 .darkmode .checkbox {
   margin: 5px;
   background-color: transparent;
@@ -361,6 +378,46 @@ li {
   border: 1px solid rgb(119, 107, 93);
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 2px 2px 0px rgb(119, 107, 93);
+}
+.darkmode footer {
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
+}
+.darkmode .boite__contenu {
+  color: rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+}
+.darkmode .boite__contenu__close {
+  color: rgb(176, 166, 149);
+  color: rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  border: 2px solid rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+}
+.darkmode .boite__contenu__close__form__modalInput {
+  border: 2px solid rgb(119, 107, 93);
+  background-color: white;
+  box-shadow: 4px 4px rgb(119, 107, 93);
+  color: rgb(119, 107, 93);
+}
+.darkmode .boite__contenu__close__form__modalInput .input::-moz-placeholder {
+  color: rgb(72, 68, 62);
+}
+.darkmode .boite__contenu__close__form__modalInput .input::placeholder {
+  color: rgb(72, 68, 62);
+}
+.darkmode .boite__contenu__close__form__modalInput .input:focus {
+  border: 2px solid rgb(41, 37, 32);
+}
+.darkmode .boite__contenu__close__close {
+  color: rgb(41, 37, 32);
+}
+.darkmode .boite__contenu__close__close:focus, .darkmode .boite__contenu__close__close:hover {
+  color: rgb(41, 37, 32);
+}
+.darkmode li {
+  list-style: none;
 }
 
 * {
@@ -384,7 +441,6 @@ header {
   background-color: rgb(119, 107, 93);
   border: 2px solid rgb(41, 37, 32);
   box-shadow: 5px 5px 0px rgb(41, 37, 32);
-  transition: all 0.3s ease;
   min-width: 50px;
   width: 10%;
   height: 10%;
@@ -395,9 +451,10 @@ header {
 h1 {
   color: rgb(235, 227, 213);
   background-color: rgb(119, 107, 93);
+  border: 2px solid rgb(41, 37, 32);
+  box-shadow: 5px 5px 0px rgb(41, 37, 32);
   padding: 10px 20px;
   font-weight: bold;
-  border: 5px solid rgb(41, 37, 32);
 }
 
 button {
@@ -411,14 +468,12 @@ button {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-
 button:hover {
   background-color: rgb(243, 238, 234);
   color: rgb(119, 107, 93);
   border: 2px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
 }
-
 button:active {
   background-color: rgb(243, 238, 234);
   box-shadow: none;
@@ -444,7 +499,6 @@ h2 {
 .eventBox {
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
-  transition: all 0.3s ease;
   margin: 10px;
   padding: 10px;
 }
@@ -455,7 +509,6 @@ table {
   border-collapse: collapse;
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
-  transition: all 0.3s ease;
 }
 
 td,
@@ -497,4 +550,8 @@ th {
   border: 1px solid rgb(119, 107, 93);
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 2px 2px 0px rgb(119, 107, 93);
+}
+
+label {
+  color: rgb(119, 107, 93);
 }/*# sourceMappingURL=style.css.map */
