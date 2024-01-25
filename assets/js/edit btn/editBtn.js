@@ -1,6 +1,6 @@
 // Modifier le nom, l'auteur et la description d'un évènement
 export function editEvent(eventId) {
-    fetch(`http://localhost:3000/api/events/${eventId}`)
+    fetch(`http://localhost:3000/api/events/${eventId}`, { method: "DELETE" })
     .then((response) => response.json())
     .then((event) => {
         displayEditForm(event);
