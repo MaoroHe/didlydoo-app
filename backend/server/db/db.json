@@ -1,23 +1,47 @@
 [
   {
-    "id": "17988757e5cf",
-    "name": "gchgch",
-    "author": "hchgchgch",
-    "description": "cvhgchgchgc",
+    "id": "badda31c9d34",
+    "name": "ff",
+    "author": "zertghj",
+    "description": "erfgh",
     "dates": [
-      "2024-01-09",
-      "2024-01-11",
-      "2024-01-12"
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26",
+      "2024-01-27",
+      "2024-02-09",
+      "2024-02-07",
+      "2024-02-10",
+      "2024-02-05",
+      "2024-03-07",
+      "2024-02-15",
+      "2024-01-10"
     ],
-    "created_at": "2024-01-24T14:14:10.315Z",
+    "created_at": "2024-01-24T18:38:44.154Z",
     "num_modification": 0,
-    "last_modification": "2024-01-24T14:14:10.315Z",
+    "last_modification": "2024-01-24T18:38:44.154Z",
     "attendees": [
       {
-        "name": "gjhgj",
+        "name": "azerty",
         "dates": [
           {
-            "date": "2024-01-09",
+            "date": "2024-01-25",
+            "available": true
+          },
+          {
+            "date": "2024-01-27",
+            "available": true
+          },
+          {
+            "date": "2024-02-07",
+            "available": true
+          },
+          {
+            "date": "2024-02-10",
+            "available": true
+          },
+          {
+            "date": "2024-03-07",
             "available": true
           }
         ]
@@ -25,54 +49,115 @@
     ]
   },
   {
-    "id": "2debf0eb4327",
-    "name": "jkhkhk",
-    "author": "hkjhkjhkjhkj",
-    "description": "hkhkj",
+    "id": "7b9f1c09511e",
+    "name": "llll",
+    "author": "lllllllll",
+    "description": "lllll",
     "dates": [
-      "2024-01-09",
-      "2024-01-19"
+      "2024-01-25",
+      "2024-01-28",
+      "2024-01-27",
+      "2024-01-26"
     ],
-    "created_at": "2024-01-24T14:09:40.194Z",
+    "created_at": "2024-01-24T18:30:29.548Z",
     "num_modification": 0,
-    "last_modification": "2024-01-24T14:09:40.194Z",
+    "last_modification": "2024-01-24T18:30:29.548Z",
     "attendees": []
   },
   {
-    "id": "d7e223447c30",
-    "name": "Maoro",
-    "author": "Maoro",
-    "description": "Cool",
+    "id": "bd1c9db97f1a",
+    "name": "try hard valo",
+    "author": "Mathias",
+    "description": "chez Jordan",
     "dates": [
-      "2024-01-12",
-      "2024-02-09"
+      "2024-01-24",
+      "2024-01-25",
+      "2024-01-26"
     ],
-    "created_at": "2024-01-24T09:59:46.969Z",
+    "created_at": "2024-01-24T18:23:00.446Z",
     "num_modification": 0,
-    "last_modification": "2024-01-24T09:59:46.969Z",
+    "last_modification": "2024-01-24T18:23:00.446Z",
     "attendees": [
       {
-        "name": "Maoro",
+        "name": "Mathias",
         "dates": [
           {
-            "date": "2024-02-09",
-            "available": true
-          },
-          {
-            "date": "2024-02-09",
-            "available": false
-          },
-          {
-            "date": "2024-02-09",
+            "date": "2024-01-25",
             "available": true
           }
         ]
       },
       {
-        "name": "jhjhj",
+        "name": "Jordan",
         "dates": [
           {
-            "date": "2024-02-09",
+            "date": "2024-01-24",
+            "available": true
+          },
+          {
+            "date": "2024-01-25",
+            "available": true
+          },
+          {
+            "date": "2024-01-26",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "mmm",
+        "dates": [
+          {
+            "date": "2024-01-25",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "mmmmmm",
+        "dates": [
+          {
+            "date": "2024-01-25",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "ùùùùùù",
+        "dates": [
+          {
+            "date": "2024-01-26",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "ùp",
+        "dates": [
+          {
+            "date": "2024-01-26",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "^p^p",
+        "dates": [
+          {
+            "date": "2024-01-26",
+            "available": true
+          },
+          {
+            "date": "2024-01-25",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "maoro",
+        "dates": [
+          {
+            "date": "2024-01-25",
             "available": true
           }
         ]
