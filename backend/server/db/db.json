@@ -1,24 +1,258 @@
 [
   {
-    "id": "066fcb79117e",
-    "name": "yyyyy",
-    "author": "ezezez",
-    "description": "ezezezez",
+    "id": "3d7fba3e5476",
+    "name": "Lancer de câble Ethernet",
+    "author": "Zerator",
+    "description": "le fameux lancer de cable ethernet de la ZLan reviens mais cette fois ci pour une version grand public!",
     "dates": [
-      "2024-01-03"
+      "2024-02-09",
+      "2024-01-27"
     ],
-    "created_at": "2024-01-26T13:17:39.446Z",
-    "num_modification": 3,
-    "last_modification": "2024-01-26T14:02:19.248Z",
+    "created_at": "2024-01-26T14:36:40.251Z",
+    "num_modification": 1,
+    "last_modification": "2024-01-26T14:43:27.504Z",
     "attendees": [
       {
-        "name": "jony",
+        "name": "Etoiles",
         "dates": [
           {
-            "date": "2024-01-03",
+            "date": "2024-02-09",
             "available": true
           }
         ]
+      },
+      {
+        "name": "JDG",
+        "dates": [
+          {
+            "date": "2024-02-09",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Corentin",
+        "dates": [
+          {
+            "date": "2024-01-27",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Alexis",
+        "dates": [
+          {
+            "date": "2024-02-09",
+            "available": true
+          },
+          {
+            "date": "2024-01-27",
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d671dcd70163",
+    "name": "Saut en longueur sur des chameaux",
+    "author": "Chameau.INC",
+    "description": "Sauter loin sauter bien, voici notre règle d'or chez sautenlongueursurdosdechameau.com",
+    "dates": [
+      "2024-04-05",
+      "2024-02-23",
+      "2024-02-09"
+    ],
+    "created_at": "2024-01-26T14:35:53.034Z",
+    "num_modification": 0,
+    "last_modification": "2024-01-26T14:35:53.034Z",
+    "attendees": [
+      {
+        "name": "DFG",
+        "dates": [
+          {
+            "date": "2024-02-09",
+            "available": true
+          },
+          {
+            "date": "2024-02-23",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Gotaga",
+        "dates": [
+          {
+            "date": "2024-02-23",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Matsu",
+        "dates": [
+          {
+            "date": "2024-02-09",
+            "available": true
+          },
+          {
+            "date": "2024-04-05",
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "65b3e3424ac5",
+    "name": "Atelier Pair-Coding",
+    "author": "BeCode",
+    "description": "Un atelier d'initiation au pair-coding avec les jeunes apprenants de BeCode!",
+    "dates": [
+      "2024-02-14",
+      "2024-02-10"
+    ],
+    "created_at": "2024-01-26T14:32:11.787Z",
+    "num_modification": 1,
+    "last_modification": "2024-01-26T14:33:26.493Z",
+    "attendees": [
+      {
+        "name": "Jean-Mi",
+        "dates": []
+      },
+      {
+        "name": "Paul",
+        "dates": [
+          {
+            "date": "2024-02-10",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "JP",
+        "dates": [
+          {
+            "date": "2024-02-14",
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7e62a69128f",
+    "name": "Tournoi de Ping-Pong",
+    "author": "Hmm who i am ?",
+    "description": "Pour s'inscrire ? Envoyer un petit message a Damien!",
+    "dates": [
+      "2024-01-26",
+      "2024-01-27",
+      "2024-01-28",
+      "2024-01-29",
+      "2024-01-30",
+      "2024-01-31"
+    ],
+    "created_at": "2024-01-26T14:25:08.274Z",
+    "num_modification": 3,
+    "last_modification": "2024-01-26T14:30:46.479Z",
+    "attendees": [
+      {
+        "name": "Maoro",
+        "dates": [
+          {
+            "date": "2024-01-26",
+            "available": true
+          },
+          {
+            "date": "2024-01-26",
+            "available": false
+          },
+          {
+            "date": "2024-01-27",
+            "available": true
+          },
+          {
+            "date": "2024-01-26",
+            "available": true
+          },
+          {
+            "date": "2024-01-29",
+            "available": true
+          },
+          {
+            "date": "2024-01-31",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Mathias",
+        "dates": [
+          {
+            "date": "2024-01-26",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Damien",
+        "dates": [
+          {
+            "date": "2024-01-27",
+            "available": true
+          },
+          {
+            "date": "2024-01-28",
+            "available": true
+          },
+          {
+            "date": "2024-01-29",
+            "available": true
+          },
+          {
+            "date": "2024-01-30",
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "197f6f2d7ce8",
+    "name": "Fête chez Maoro.",
+    "author": "Mao",
+    "description": "Une giga fête chez maoro!",
+    "dates": [
+      "2024-01-28"
+    ],
+    "created_at": "2024-01-26T14:20:38.304Z",
+    "num_modification": 4,
+    "last_modification": "2024-01-26T14:28:55.021Z",
+    "attendees": [
+      {
+        "name": "Mathias",
+        "dates": [
+          {
+            "date": "2024-01-28",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Denis",
+        "dates": [
+          {
+            "date": "2024-01-28",
+            "available": true
+          }
+        ]
+      },
+      {
+        "name": "Noé",
+        "dates": []
       }
     ]
   }

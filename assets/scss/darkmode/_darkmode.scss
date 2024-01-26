@@ -246,41 +246,33 @@
     }
 
 
-    // EDIT MODAL BOX
+    //  footer {
+    //     background-color: $darkbrown;
+    //  }   
 
-    h2 {
+    .footer-left {
+        background-color: $darkbrown !important;
+    }
+
+    .footer-right {
+        background-color: $darkbrown !important;
+    }
+
+    .darkp {
+        background-color: $darkbrown !important;
+    }
+
+    .darkE {
+        background-color: $brown;
         color: $beige;
+    }
+
+    .specialD {
         background-color: $brown;
     }
+}
 
-    .input {
-background-color: $brown;
-        &__name,
-        &__author,
-        &__description {
-
-
-
-            margin: 10px;
-            width: 150px;
-            height: 20px;
-            border: 2px solid $darkbrown;
-            background-color: $beige;
-            box-shadow: 4px 4px $darkbrown;
-            font-size: 15px;
-            font-weight: 600;
-            color: $darkcoffee;
-            padding: 5px 10px;
-            outline: none;
-
-            &::placeholder {
-                color: $darkcoffee;
-                opacity: 0.8;
-            }
-
-            .input:focus {
-                border: 2px solid $darkbrown;
-            }
-        }
-    }
+#edit-form {
+    display: flex;
+    align-items: baseline;
 }

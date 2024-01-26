@@ -256,36 +256,26 @@ li {
 .darkmode li {
   list-style: none;
 }
-.darkmode h2 {
+.darkmode .footer-left {
+  background-color: rgb(41, 37, 32) !important;
+}
+.darkmode .footer-right {
+  background-color: rgb(41, 37, 32) !important;
+}
+.darkmode .darkp {
+  background-color: rgb(41, 37, 32) !important;
+}
+.darkmode .darkE {
+  background-color: rgb(119, 107, 93);
   color: rgb(235, 227, 213);
+}
+.darkmode .specialD {
   background-color: rgb(119, 107, 93);
 }
-.darkmode .input {
-  background-color: rgb(119, 107, 93);
-}
-.darkmode .input__name, .darkmode .input__author, .darkmode .input__description {
-  margin: 10px;
-  width: 150px;
-  height: 20px;
-  border: 2px solid rgb(41, 37, 32);
-  background-color: rgb(235, 227, 213);
-  box-shadow: 4px 4px rgb(41, 37, 32);
-  font-size: 15px;
-  font-weight: 600;
-  color: rgb(72, 68, 62);
-  padding: 5px 10px;
-  outline: none;
-}
-.darkmode .input__name::-moz-placeholder, .darkmode .input__author::-moz-placeholder, .darkmode .input__description::-moz-placeholder {
-  color: rgb(72, 68, 62);
-  opacity: 0.8;
-}
-.darkmode .input__name::placeholder, .darkmode .input__author::placeholder, .darkmode .input__description::placeholder {
-  color: rgb(72, 68, 62);
-  opacity: 0.8;
-}
-.darkmode .input__name .input:focus, .darkmode .input__author .input:focus, .darkmode .input__description .input:focus {
-  border: 2px solid rgb(41, 37, 32);
+
+#edit-form {
+  display: flex;
+  align-items: baseline;
 }
 
 .theme-switch {
