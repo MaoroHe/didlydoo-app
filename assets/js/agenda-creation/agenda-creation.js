@@ -19,7 +19,6 @@ export function displayEvents(data) {
         <p class="events__description">${event.description}</p>
         <p class="events__author">${event.author}</p>
         <button class="events__edit-button edit-button" data-id="${event.id}">Edit Date</button>
-
         <button class="events__delete-button delete-button" data-id="${event.id}">Delete Event</button>`;
         const table = document.createElement("table");
         const thead = document.createElement("thead");

@@ -1,7 +1,5 @@
-
-
 html {
-background-color: $darkbrown;
+    background-color: $darkbrown;
 }
 
 
@@ -176,59 +174,75 @@ background-color: $darkbrown;
 
     //MODAL BOX-----------------------
     .boite {
-
-
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        left: auto;
+        right: auto;
+        // z-index: 1;
+        width: 100%;
+        height: 100%;
+      
         &__contenu {
-           
-            color: $brown;
-            background-color: $brown;
-            box-shadow: 5px 5px 0px $brown;
-
-
-            &__close {
-                color: $coffee;
-                color: $brown;
-                background-color: $brown;
-                border: 2px solid $brown;
-                // border-radius: 10px;
-                box-shadow: 5px 5px 0px $brown;
-                // transition: all 0.3s ease;
-
-                &__form {
-                    &__modalInput {
-                        border: 2px solid $brown;
-                        background-color: white;
-                        box-shadow: 4px 4px $brown;
-                        color: $brown;
-
-                        .input::placeholder {
-                            color: $darkcoffee;
-                        }
-
-                        .input:focus {
-                            border: 2px solid $darkbrown;
-                        }
-                    }
-
-                }
-
-                &__close {
-                    color: $darkbrown;
-
-                    &:focus,
-                    &:hover {
-                        color: $darkbrown;
-
-                    }
-                }
+          margin: 10px;
+          width: 300px;
+          color: $Lattecream;
+          background-color: $brown;
+          border: 2px solid $Lattecream;
+          padding: 12px;
+          box-shadow: 5px 5px 0px $Lattecream;
+      
+          &__close {
+            color: $darkbrown;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            height: fit-content;
+            margin-right: 7px;
+      
+            &:focus,
+            &:hover {
+              color: $darkbrown;
+              text-decoration: none;
+              cursor: pointer;
             }
+          }
+      
+          &__form {
+            &__modalInput {
+      
+              margin: 10px;
+              min-width: 150px;
+              width: 100px;
+              height: 20px;
+              border: 2px solid $brown;
+              background-color: white;
+              box-shadow: 4px 4px $brown;
+              font-size: 15px;
+              font-weight: 600;
+              color: $brown;
+              padding: 5px 10px;
+              outline: none;
+      
+              &::placeholder {
+                color: $darkcoffee;
+                opacity: 0.8;
+              }
+      
+              &:focus {
+                border: 2px solid $darkbrown;
+              }
+            }
+          }
         }
-    }
+      }
+      
 
     li {
         list-style: none;
-}
-//  footer {
-//     background-color: $darkbrown;
-//  }   
+    }
+
+    //  footer {
+    //     background-color: $darkbrown;
+    //  }   
 }
