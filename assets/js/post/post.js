@@ -20,26 +20,33 @@ export let postToApi = () => {
     const eventDescValue = eventDesc.value;
     const eventAuthorValue = eventAuthor.value;
 
+
     // tout mettre dans un objet
 
-    const event = {
-        name: eventNameValue,
-        description: eventDescValue,
-        author: eventAuthorValue,
-        dates: theDate,
+    if (eventNameValue.length <= 256 && eventDescValue.length <= 512 && eventAuthor <= 64) {
+
+        const event = {
+            name: eventNameValue,
+            description: eventDescValue,
+            author: eventAuthorValue,
+            dates: theDate,
+        }
+
+        // vider nos input
+
+        fetch('http://localhost:3000/api/events', {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(event)
+        }) 
+
+        eventName.value = '';
+        eventDesc.value = '';
+        eventAuthor.value = '';
+    } else {
+        alert('Aucun champs ne doit dépasser 256 charactères.')
     }
-
-    // vider nos input
-
-    fetch('http://localhost:3000/api/events', {
-        method: "POST",
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(event)
-    }) 
-
-    eventName.value = '';
-    eventDesc.value = '';
-    eventAuthor.value = '';
+    
 }
