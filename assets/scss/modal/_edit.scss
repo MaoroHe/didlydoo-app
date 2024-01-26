@@ -1,0 +1,30 @@
+.edit-title {
+    color: $darkbrown;
+    background-color:$beige;
+}
+
+.edit-form {
+    background-color: $beige;
+    &__name, &__description, &__author {
+        margin: 10px;
+        width: 150px;
+        height: 20px;
+        border: 2px solid $brown;
+        background-color: white;
+        box-shadow: 4px 4px $brown;
+        font-size: 15px;
+        font-weight: 600;
+        color: $brown;
+        padding: 5px 10px;
+        outline: none;
+
+        &::placeholder {
+            color: $beige;
+            opacity: 0.8;
+        }
+
+        &:focus {
+            border: 2px solid $brown;
+        }
+    }
+}

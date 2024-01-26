@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700");
 .boite {
+  background-color: rgb(235, 227, 213);
   display: none;
   flex-direction: column;
   position: fixed;
@@ -123,9 +124,6 @@ html {
   background-color: rgb(119, 107, 93);
   color: rgb(235, 227, 213);
 }
-.darkmode h2 {
-  color: rgb(95, 30, 8);
-}
 .darkmode .eventBox {
   background-color: rgb(119, 107, 93);
   border: 1px solid rgb(243, 238, 234);
@@ -165,15 +163,15 @@ html {
   padding: 5px 10px;
   outline: none;
 }
-.darkmode .nameInput .input::-moz-placeholder {
+.darkmode .nameInput::-moz-placeholder {
   color: rgb(72, 68, 62);
   opacity: 0.8;
 }
-.darkmode .nameInput .input::placeholder {
+.darkmode .nameInput::placeholder {
   color: rgb(72, 68, 62);
   opacity: 0.8;
 }
-.darkmode .nameInput .input:focus {
+.darkmode .nameInput:focus {
   border: 2px solid rgb(41, 37, 32);
 }
 .darkmode .checkboxes {
@@ -196,6 +194,7 @@ html {
   color: rgb(235, 227, 213);
 }
 .darkmode .boite {
+  background-color: rgb(41, 37, 32);
   display: none;
   flex-direction: column;
   position: fixed;
@@ -214,7 +213,8 @@ html {
   box-shadow: 5px 5px 0px rgb(243, 238, 234);
 }
 .darkmode .boite__contenu__close {
-  color: rgb(41, 37, 32);
+  background-color: rgb(119, 107, 93);
+  color: rgb(243, 238, 234);
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -232,9 +232,9 @@ html {
   min-width: 150px;
   width: 100px;
   height: 20px;
-  border: 2px solid rgb(119, 107, 93);
-  background-color: white;
-  box-shadow: 4px 4px rgb(119, 107, 93);
+  border: 2px solid rgb(41, 37, 32);
+  background-color: rgb(235, 227, 213);
+  box-shadow: 4px 4px rgb(41, 37, 32);
   font-size: 15px;
   font-weight: 600;
   color: rgb(119, 107, 93);
@@ -252,8 +252,34 @@ html {
 .darkmode .boite__contenu__form__modalInput:focus {
   border: 2px solid rgb(41, 37, 32);
 }
-.darkmode li {
+
+li {
   list-style: none;
+}
+
+.edit-title {
+  color: rgb(243, 238, 234);
+  background-color: rgb(119, 107, 93);
+}
+
+.edit-form__name, .edit-form__description, .edit-form__author {
+  border: 2px solid rgb(119, 107, 93);
+  background-color: white;
+  box-shadow: 4px 4px rgb(119, 107, 93);
+  color: rgb(119, 107, 93);
+}
+.edit-form__name::-moz-placeholder, .edit-form__description::-moz-placeholder, .edit-form__author::-moz-placeholder {
+  color: rgb(235, 227, 213);
+}
+.edit-form__name::placeholder, .edit-form__description::placeholder, .edit-form__author::placeholder {
+  color: rgb(235, 227, 213);
+}
+.edit-form__name:focus, .edit-form__description:focus, .edit-form__author:focus {
+  border: 2px solid rgb(119, 107, 93);
+}
+
+div {
+  background-color: rgb(119, 107, 93);
 }
 
 .theme-switch {
@@ -435,6 +461,69 @@ html {
   transform: translateY(-50%);
 }
 
+.boite {
+  background-color: rgb(235, 227, 213);
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left: auto;
+  right: auto;
+  width: 100%;
+  height: 100%;
+}
+.boite__contenu {
+  margin: 10px;
+  width: 300px;
+  color: rgb(119, 107, 93);
+  background-color: rgb(119, 107, 93);
+  border: 2px solid rgb(119, 107, 93);
+  box-shadow: 5px 5px 0px rgb(119, 107, 93);
+}
+.boite__contenu__close {
+  color: rgb(41, 37, 32);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: 7px;
+}
+.boite__contenu__close:focus, .boite__contenu__close:hover {
+  color: rgb(41, 37, 32);
+  text-decoration: none;
+  cursor: pointer;
+}
+.boite__contenu__form__modalInput {
+  margin: 10px;
+  min-width: 150px;
+  width: 100px;
+  height: 20px;
+  border: 2px solid rgb(119, 107, 93);
+  background-color: white;
+  box-shadow: 4px 4px rgb(119, 107, 93);
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(119, 107, 93);
+  padding: 5px 10px;
+  outline: none;
+}
+.boite__contenu__form__modalInput::-moz-placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.boite__contenu__form__modalInput::placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.boite__contenu__form__modalInput:focus {
+  border: 2px solid rgb(41, 37, 32);
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
 * {
   font-family: "Raleway";
   font-weight: 400;
@@ -512,6 +601,7 @@ h2 {
 }
 
 .eventBox {
+  background-color: rgb(235, 227, 213);
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 5px 5px 0px rgb(119, 107, 93);
   margin: 10px;
@@ -546,15 +636,15 @@ th {
   padding: 5px 10px;
   outline: none;
 }
-.nameInput .input::-moz-placeholder {
+.nameInput::-moz-placeholder {
   color: rgb(72, 68, 62);
   opacity: 0.8;
 }
-.nameInput .input::placeholder {
+.nameInput::placeholder {
   color: rgb(72, 68, 62);
   opacity: 0.8;
 }
-.nameInput .input:focus {
+.nameInput:focus {
   border: 2px solid rgb(41, 37, 32);
 }
 
@@ -563,8 +653,12 @@ th {
   background-color: transparent;
   border: transparent;
   border: 1px solid rgb(119, 107, 93);
-  border: 1px solid rgb(119, 107, 93);
+  background-color: rgb(235, 227, 213);
   box-shadow: 2px 2px 0px rgb(119, 107, 93);
+}
+
+.checkboxes {
+  background-color: rgb(235, 227, 213);
 }
 
 label {

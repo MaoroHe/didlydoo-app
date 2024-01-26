@@ -84,11 +84,6 @@ html {
         }
     }
 
-    h2 {
-        color: $vintagedarkRed;
-
-    }
-
     .eventBox {
         background-color: $brown;
         border: 1px solid $Lattecream;
@@ -138,12 +133,12 @@ html {
         padding: 5px 10px;
         outline: none;
 
-        .input::placeholder {
+        &::placeholder {
             color: $darkcoffee;
             opacity: 0.8;
         }
 
-        .input:focus {
+        &:focus {
             border: 2px solid $darkbrown;
         }
     }
@@ -172,8 +167,9 @@ html {
         color: $beige;
     }
 
-    //MODAL BOX-----------------------
+    //MODAL ADD EVENT BOX-----------------------
     .boite {
+        background-color: $darkbrown;
         display: none;
         flex-direction: column;
         position: fixed;
@@ -193,7 +189,8 @@ html {
           box-shadow: 5px 5px 0px $Lattecream;
       
           &__close {
-            color: $darkbrown;
+            background-color: $brown;
+            color: $Lattecream;
             float: right;
             font-size: 28px;
             font-weight: bold;
@@ -215,9 +212,9 @@ html {
               min-width: 150px;
               width: 100px;
               height: 20px;
-              border: 2px solid $brown;
-              background-color: white;
-              box-shadow: 4px 4px $brown;
+              border: 2px solid $darkbrown;
+              background-color: $beige;
+              box-shadow: 4px 4px $darkbrown;
               font-size: 15px;
               font-weight: 600;
               color: $brown;
@@ -237,12 +234,43 @@ html {
         }
       }
       
-
+}
     li {
         list-style: none;
+    }
+
+
+// MODAL EDIT BOX --------------------------------
+.edit-title {
+    color: $Lattecream;
+    background-color: $brown;
+}
+    .edit-form {
+        &__name, &__description, &__author {
+            border: 2px solid $brown;
+            background-color: white;
+            box-shadow: 4px 4px $brown;
+
+            color: $brown;
+
+    
+            &::placeholder {
+                color: $beige;
+
+            }
+    
+            &:focus {
+                border: 2px solid $brown;
+            }
+        }
+    
+    
+    }
+
+    div {
+        background-color: $brown;
     }
 
     //  footer {
     //     background-color: $darkbrown;
     //  }   
-}

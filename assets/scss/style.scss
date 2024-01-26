@@ -3,6 +3,7 @@
 @import "./modal/modal";
 @import "./darkmode/darkmode";
 @import "./darkmode/toggle";
+@import "./modal/modal";
 
 
 * {
@@ -103,6 +104,7 @@ h2 {
 }
 
 .eventBox {
+    background-color: $beige;
     // width: 500px;
     border: 1px solid $brown;
     box-shadow: 5px 5px 0px $brown;
@@ -145,12 +147,12 @@ th {
     padding: 5px 10px;
     outline: none;
 
-    .input::placeholder {
+    &::placeholder {
         color: $darkcoffee;
         opacity: 0.8;
     }
 
-    .input:focus {
+    &:focus {
         border: 2px solid $darkbrown;
     }
 }
@@ -161,8 +163,12 @@ th {
     background-color: transparent;
     border: transparent;
     border: 1px solid $brown;
-    border: 1px solid $brown;
+    background-color: $beige;
     box-shadow: 2px 2px 0px $brown;
+}
+
+.checkboxes {
+    background-color: $beige;
 }
 
 label {
