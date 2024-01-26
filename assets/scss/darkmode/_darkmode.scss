@@ -1,14 +1,15 @@
-html {
-    background-color: $darkbrown;
-}
 
+* {
+    background-color: $brown;
+}
 
 .darkmode {
     height: 100%;
+    background-color: $brown;
 
     header,
-    main {
-        background-color: $darkbrown;
+    main, footer {
+        background-color: $brown;
 
 
     }
@@ -167,13 +168,14 @@ html {
         box-shadow: 2px 2px 0px $brown;
     }
 
-    footer {
-        background-color: $brown;
-        color: $beige;
-    }
+    // footer {
+    //     background-color: $brown;
+    //     color: $beige;
+    // }
 
     //MODAL BOX-----------------------
     .boite {
+        background-color: $brown;
         display: none;
         flex-direction: column;
         position: fixed;
@@ -193,12 +195,13 @@ html {
           box-shadow: 5px 5px 0px $Lattecream;
       
           &__close {
-            color: $darkbrown;
+            background-color: $brown;
+            color: $beige;
             float: right;
             font-size: 28px;
             font-weight: bold;
             height: fit-content;
-            margin-right: 7px;
+            margin: 7px;
       
             &:focus,
             &:hover {
@@ -215,9 +218,9 @@ html {
               min-width: 150px;
               width: 100px;
               height: 20px;
-              border: 2px solid $brown;
-              background-color: white;
-              box-shadow: 4px 4px $brown;
+              border: 2px solid $darkbrown;
+              background-color: $beige;
+              box-shadow: 4px 4px $darkbrown;
               font-size: 15px;
               font-weight: 600;
               color: $brown;
@@ -242,7 +245,34 @@ html {
         list-style: none;
     }
 
-    //  footer {
-    //     background-color: $darkbrown;
-    //  }   
+
+    // EDIT MODAL BOX
+
+    h2 {
+        color: $beige;
+        background-color:$brown;
+    }
+    .nameInput {
+
+        margin: 10px;
+        width: 150px;
+        height: 20px;
+        border: 2px solid $darkbrown;
+        background-color: $beige;
+        box-shadow: 4px 4px $darkbrown;
+        font-size: 15px;
+        font-weight: 600;
+        color: $darkcoffee;
+        padding: 5px 10px;
+        outline: none;
+
+        &::placeholder {
+            color: $darkcoffee;
+            opacity: 0.8;
+        }
+
+        .input:focus {
+            border: 2px solid $darkbrown;
+        }
+    } 
 }

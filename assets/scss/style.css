@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Droid+Sans|Roboto+Slab:400,700");
 .boite {
+  background-color: rgb(235, 227, 213);
   display: none;
   flex-direction: column;
   position: fixed;
@@ -61,17 +62,18 @@ li {
   margin: 10px;
 }
 
-html {
-  background-color: rgb(41, 37, 32);
+* {
+  background-color: rgb(119, 107, 93);
 }
 
 .darkmode {
   height: 100%;
+  background-color: rgb(119, 107, 93);
   /* MAIN */
 }
 .darkmode header,
-.darkmode main {
-  background-color: rgb(41, 37, 32);
+.darkmode main, .darkmode footer {
+  background-color: rgb(119, 107, 93);
 }
 .darkmode .logo {
   color: rgb(243, 238, 234);
@@ -191,11 +193,8 @@ html {
   border: 1px solid rgb(119, 107, 93);
   box-shadow: 2px 2px 0px rgb(119, 107, 93);
 }
-.darkmode footer {
-  background-color: rgb(119, 107, 93);
-  color: rgb(235, 227, 213);
-}
 .darkmode .boite {
+  background-color: rgb(119, 107, 93);
   display: none;
   flex-direction: column;
   position: fixed;
@@ -214,13 +213,14 @@ html {
   box-shadow: 5px 5px 0px rgb(243, 238, 234);
 }
 .darkmode .boite__contenu__close {
-  color: rgb(41, 37, 32);
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
   float: right;
   font-size: 28px;
   font-weight: bold;
   height: -moz-fit-content;
   height: fit-content;
-  margin-right: 7px;
+  margin: 7px;
 }
 .darkmode .boite__contenu__close:focus, .darkmode .boite__contenu__close:hover {
   color: rgb(41, 37, 32);
@@ -232,9 +232,9 @@ html {
   min-width: 150px;
   width: 100px;
   height: 20px;
-  border: 2px solid rgb(119, 107, 93);
-  background-color: white;
-  box-shadow: 4px 4px rgb(119, 107, 93);
+  border: 2px solid rgb(41, 37, 32);
+  background-color: rgb(235, 227, 213);
+  box-shadow: 4px 4px rgb(41, 37, 32);
   font-size: 15px;
   font-weight: 600;
   color: rgb(119, 107, 93);
@@ -254,6 +254,34 @@ html {
 }
 .darkmode li {
   list-style: none;
+}
+.darkmode h2 {
+  color: rgb(235, 227, 213);
+  background-color: rgb(119, 107, 93);
+}
+.darkmode .nameInput {
+  margin: 10px;
+  width: 150px;
+  height: 20px;
+  border: 2px solid rgb(41, 37, 32);
+  background-color: rgb(235, 227, 213);
+  box-shadow: 4px 4px rgb(41, 37, 32);
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(72, 68, 62);
+  padding: 5px 10px;
+  outline: none;
+}
+.darkmode .nameInput::-moz-placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.darkmode .nameInput::placeholder {
+  color: rgb(72, 68, 62);
+  opacity: 0.8;
+}
+.darkmode .nameInput .input:focus {
+  border: 2px solid rgb(41, 37, 32);
 }
 
 .theme-switch {
@@ -443,6 +471,10 @@ html {
   background-color: rgb(235, 227, 213);
 }
 
+html {
+  background-color: rgb(235, 227, 213);
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -507,8 +539,9 @@ button:active {
   color: rgb(41, 37, 32);
 }
 
-h2 {
-  color: rgb(95, 30, 8);
+.edit-title {
+  color: rgb(119, 107, 93);
+  background-color: rgb(235, 227, 213);
 }
 
 .eventBox {

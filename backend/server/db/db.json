@@ -8,8 +8,18 @@
       "2024-01-03"
     ],
     "created_at": "2024-01-26T13:17:39.446Z",
-    "num_modification": 0,
-    "last_modification": "2024-01-26T13:17:39.446Z",
-    "attendees": []
+    "num_modification": 1,
+    "last_modification": "2024-01-26T13:34:00.250Z",
+    "attendees": [
+      {
+        "name": "jony",
+        "dates": [
+          {
+            "date": "2024-01-03",
+            "available": true
+          }
+        ]
+      }
+    ]
   }
 ]
