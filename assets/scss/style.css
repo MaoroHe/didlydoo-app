@@ -255,6 +255,24 @@ html {
 .darkmode li {
   list-style: none;
 }
+.darkmode .footer-left {
+  background-color: rgb(41, 37, 32);
+}
+.darkmode .footer-right {
+  background-color: rgb(41, 37, 32);
+}
+.darkmode .darkp {
+  background-color: rgb(41, 37, 32);
+}
+.darkmode .darkE {
+  background-color: rgb(119, 107, 93);
+  color: rgb(235, 227, 213);
+}
+
+#edit-form {
+  display: flex;
+  align-items: baseline;
+}
 
 .theme-switch {
   --toggle-size: 30px;

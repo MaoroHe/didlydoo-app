@@ -24,6 +24,7 @@ export let darkInit = () => {
     if(darkStates == 'true') {
         document.body.className = 'darkmode';
         check.checked = true;
+        document.documentElement.style.backgroundColor = '#8B888B';
         let darkState = true;
         
         window.localStorage.setItem('darkmod', darkState);

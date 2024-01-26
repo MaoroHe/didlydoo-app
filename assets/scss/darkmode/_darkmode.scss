@@ -245,4 +245,26 @@ html {
     //  footer {
     //     background-color: $darkbrown;
     //  }   
+
+    .footer-left {
+        background-color: $darkbrown;
+    }
+
+    .footer-right {
+        background-color: $darkbrown;
+    }
+
+    .darkp {
+        background-color: $darkbrown;
+    }
+
+    .darkE {
+        background-color: $brown;
+        color: $beige;
+    }
+}
+
+#edit-form {
+    display: flex;
+    align-items: baseline;
 }

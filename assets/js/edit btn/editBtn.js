@@ -15,16 +15,16 @@ export function editEvent(eventId) {
 function displayEditForm(event) {
     const eventDiv = document.querySelector('.eventBox');
     eventDiv.innerHTML = `
-        <h2>Edit Event</h2>
+        <h2 class='darkE'>Edit Event</h2>
         <form id="edit-form">
             <label for="name">Name:</label>
-            <input type="text" id="name" value="${event.name}" required>
+            <input type="text" class='nameInput' id="name" value="${event.name}" required>
             
             <label for="description">Description:</label>
-            <textarea id="description" required>${event.description}</textarea>
+            <textarea id="description" class='nameInput' required>${event.description}</textarea>
             
             <label for="author">Author:</label>
-            <input type="text" id="author" value="${event.author}" required>
+            <input type="text" class='nameInput' id="author" value="${event.author}" required>
             
             <button type="submit">Save Changes</button>
         </form>`;
