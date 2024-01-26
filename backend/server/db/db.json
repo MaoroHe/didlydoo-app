@@ -1,37 +1,15 @@
 [
   {
-    "id": "688c8d89dbf0",
-    "name": "Maoro",
-    "author": "Jean Pierre Pormanove",
-    "description": "Faire les courses",
+    "id": "066fcb79117e",
+    "name": "zeezez",
+    "author": "ezezez",
+    "description": "ezezezez",
     "dates": [
-      "2024-01-02",
-      "2024-02-01"
+      "2024-01-03"
     ],
-    "created_at": "2024-01-26T08:43:08.298Z",
-    "num_modification": 5,
-    "last_modification": "2024-01-26T08:55:22.955Z",
-    "attendees": [
-      {
-        "name": "cc",
-        "dates": [
-          {
-            "date": "2024-01-02",
-            "available": true
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "7cc951c4e061",
-    "name": "eeeee",
-    "author": "eeeeee",
-    "description": "eeeeeeeeeeeee",
-    "dates": [],
-    "created_at": "2024-01-26T08:13:29.465Z",
+    "created_at": "2024-01-26T13:17:39.446Z",
     "num_modification": 0,
-    "last_modification": "2024-01-26T08:13:29.465Z",
+    "last_modification": "2024-01-26T13:17:39.446Z",
     "attendees": []
   }
 ]
