@@ -23,7 +23,7 @@ function displayEditForm(event) {
             </div>
 
             <div class="edit-form__input>
-                <label for="description">Description:</label>
+                <label for="description">Details:</label>
                 <textarea class="edit-form__input__description" id="description" required>${event.description}</textarea>
             </div>
 

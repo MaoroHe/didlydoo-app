@@ -1,4 +1,3 @@
-
 * {
     background-color: $brown;
 }
@@ -8,7 +7,8 @@
     background-color: $brown;
 
     header,
-    main, footer {
+    main,
+    footer {
         background-color: $brown;
 
 
@@ -184,62 +184,62 @@
         // z-index: 1;
         width: 100%;
         height: 100%;
-      
+
         &__contenu {
-          margin: 10px;
-          width: 300px;
-          color: $Lattecream;
-          background-color: $brown;
-          border: 2px solid $Lattecream;
-          padding: 12px;
-          box-shadow: 5px 5px 0px $Lattecream;
-      
-          &__close {
+            margin: 10px;
+            width: 300px;
+            color: $Lattecream;
             background-color: $brown;
-            color: $beige;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            height: fit-content;
-            margin: 7px;
-      
-            &:focus,
-            &:hover {
-              color: $darkbrown;
-              text-decoration: none;
-              cursor: pointer;
+            border: 2px solid $Lattecream;
+            padding: 12px;
+            box-shadow: 5px 5px 0px $Lattecream;
+
+            &__close {
+                background-color: $brown;
+                color: $beige;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                height: fit-content;
+                margin: 7px;
+
+                &:focus,
+                &:hover {
+                    color: $darkbrown;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
             }
-          }
-      
-          &__form {
-            &__modalInput {
-      
-              margin: 10px;
-              min-width: 150px;
-              width: 100px;
-              height: 20px;
-              border: 2px solid $darkbrown;
-              background-color: $beige;
-              box-shadow: 4px 4px $darkbrown;
-              font-size: 15px;
-              font-weight: 600;
-              color: $brown;
-              padding: 5px 10px;
-              outline: none;
-      
-              &::placeholder {
-                color: $darkcoffee;
-                opacity: 0.8;
-              }
-      
-              &:focus {
-                border: 2px solid $darkbrown;
-              }
+
+            &__form {
+                &__modalInput {
+
+                    margin: 10px;
+                    min-width: 150px;
+                    width: 100px;
+                    height: 20px;
+                    border: 2px solid $darkbrown;
+                    background-color: $beige;
+                    box-shadow: 4px 4px $darkbrown;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: $brown;
+                    padding: 5px 10px;
+                    outline: none;
+
+                    &::placeholder {
+                        color: $darkcoffee;
+                        opacity: 0.8;
+                    }
+
+                    &:focus {
+                        border: 2px solid $darkbrown;
+                    }
+                }
             }
-          }
         }
-      }
-      
+    }
+
 
     li {
         list-style: none;
@@ -250,29 +250,37 @@
 
     h2 {
         color: $beige;
-        background-color:$brown;
+        background-color: $brown;
     }
-    .nameInput {
 
-        margin: 10px;
-        width: 150px;
-        height: 20px;
-        border: 2px solid $darkbrown;
-        background-color: $beige;
-        box-shadow: 4px 4px $darkbrown;
-        font-size: 15px;
-        font-weight: 600;
-        color: $darkcoffee;
-        padding: 5px 10px;
-        outline: none;
+    .input {
+background-color: $brown;
+        &__name,
+        &__author,
+        &__description {
 
-        &::placeholder {
-            color: $darkcoffee;
-            opacity: 0.8;
-        }
 
-        .input:focus {
+
+            margin: 10px;
+            width: 150px;
+            height: 20px;
             border: 2px solid $darkbrown;
+            background-color: $beige;
+            box-shadow: 4px 4px $darkbrown;
+            font-size: 15px;
+            font-weight: 600;
+            color: $darkcoffee;
+            padding: 5px 10px;
+            outline: none;
+
+            &::placeholder {
+                color: $darkcoffee;
+                opacity: 0.8;
+            }
+
+            .input:focus {
+                border: 2px solid $darkbrown;
+            }
         }
-    } 
+    }
 }
