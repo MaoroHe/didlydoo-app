@@ -1,6 +1,8 @@
+import {fetchData} from '../fetch/fetch.js'
+
 // Modifier le nom, l'auteur et la description d'un évènement
 export function editEvent(eventId) {
-    fetch(`http://localhost:3000/api/events/${eventId}`, { method: "GET" })
+    fetch(`http://localhost:3000/api/events/${eventId}/`)
     .then((response) => response.json())
     .then((event) => {
         displayEditForm(event);
@@ -11,7 +13,7 @@ export function editEvent(eventId) {
 }  
 
 function displayEditForm(event) {
-    const eventDiv = document.getElementById("event-details");
+    const eventDiv = document.querySelector('.eventBox');
     eventDiv.innerHTML = `
         <h2>Edit Event</h2>
         <form id="edit-form">
