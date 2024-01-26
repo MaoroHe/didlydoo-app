@@ -8,7 +8,7 @@
 Un site de gestion événementielle et de gestion de participation. Le site à été realisé par Maoro Hecq et Mathias Hardat.
 ## Screenshot
 A venir!
-##Technologie utilisée
+## Technologie utilisée
 ViteJS
 SASS
 JavaScript Vanilla
