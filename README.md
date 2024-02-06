@@ -59,11 +59,16 @@ Nous accueillons chaleureusement toute contribution à l'amélioration de l'Appl
 
 ## Licence
 
-Ce projet est sous licence [Insérer le Type de Licence]. Veuillez consulter le fichier LICENSE pour plus d'informations.
+Ce projet est sous licence API Unsplash, API OpenWeather, Chart.js. Veuillez consulter le fichier LICENSE pour plus d'informations.
+- [API OpenWeather](https://openweathermap.org/)
+- [API Unsplash](https://unsplash.com/)
+- [Chart.js](https://www.chartjs.org/)
 
 ## Contact
 
-Votre nom - @VotreTwitter - email@example.com
+Mathias Hardat - [https://github.com/Seaandsurf](https://github.com/Seaandsurf) - [Contactez Mathias](mathias.hardat@gmail.com)
+
+Maoro Hecq -  [https://github.com/MaoroHe](https://github.com/MaoroHe) - [Contactez Maoro](maorohecq1409@gmail.com)
 
 Lien du projet: [https://github.com/votrenomdutilisateur/weather-app](https://github.com/votrenomdutilisateur/weather-app)
 
